@@ -14,15 +14,22 @@ const Header = () => {
       </div>
       <div className="other">
         <a>Blog</a>
+        <a>Projects</a>
         <a>About</a>
         <a>
-          <FiGithub style={{ height: "18px", width: "18px" }} />
+          <FiGithub
+            style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
+          />
         </a>
         <a>
-          <FiTwitter style={{ height: "18px", width: "18px" }} />
+          <FiTwitter
+            style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
+          />
         </a>
         <a>
-          <FiLinkedin style={{ height: "18px", width: "18px" }} />
+          <FiLinkedin
+            style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
+          />
         </a>
       </div>
     </div>

@@ -17,8 +17,9 @@
   margin-right: 40px;
 }
 .other > a {
+  font-size: 1.125rem;
   margin: 10px;
-  font-weight: 600;
+  font-weight: 500;
   opacity: calc(50%);
   cursor: pointer;
 }

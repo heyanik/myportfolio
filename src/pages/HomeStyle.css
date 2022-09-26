@@ -1,0 +1,35 @@
+.bio {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+  margin-top: 50px;
+}
+.bio > h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.bio > p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 35px;
+  line-height: 25px;
+  color: rgb(120, 117, 117);
+}
+.bio > p > a {
+  text-decoration: #b2b2b2 underline 1px;
+  text-underline-position: under;
+  color: #222;
+  cursor: pointer;
+}
+.bio > p > a:hover {
+  transition: all 0.7s;
+  text-decoration: #000 underline 1px;
+}
+
+.bio > h2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 80px;
+  color: #b2b2b2;
+}
