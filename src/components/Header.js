@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeaderStyle.css";
+import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 const Header = () => {
   return (
     <div className="header">
@@ -14,9 +15,15 @@ const Header = () => {
       <div className="other">
         <a>Blog</a>
         <a>About</a>
-        <a>Github</a>
-        <a>Twitter</a>
-        <a>Linkedin</a>
+        <a>
+          <FiGithub style={{ height: "18px", width: "18px" }} />
+        </a>
+        <a>
+          <FiTwitter style={{ height: "18px", width: "18px" }} />
+        </a>
+        <a>
+          <FiLinkedin style={{ height: "18px", width: "18px" }} />
+        </a>
       </div>
     </div>
   );
