@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.me-icon {
+  cursor: pointer;
+}
+.me-icon > svg {
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+.other {
+  margin-right: 40px;
+}
+.other > a {
+  margin: 10px;
+  font-weight: 600;
+  opacity: calc(50%);
+  cursor: pointer;
+}
