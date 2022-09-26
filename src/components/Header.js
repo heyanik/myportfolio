@@ -26,17 +26,26 @@ const Header = () => {
             style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
           />
         </a>
-        <a className="icon-hide-mb">
+        <a
+          className="icon-hide-mb"
+          href="https://github.com/anikdaspartha58"
+          target="blank"
+        >
           <FiGithub
-            style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
+            style={{
+              height: "19.19px",
+              width: "19.19px",
+              marginTop: "5px",
+              color: "#555555;",
+            }}
           />
         </a>
-        <a>
+        <a href="https://twitter.com/hianikdaspartha" target="blank">
           <FiTwitter
             style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
           />
         </a>
-        <a>
+        <a href="https://www.linkedin.com/in/anikdaspartha/" target="blank">
           <FiLinkedin
             style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
           />

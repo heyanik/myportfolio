@@ -20,13 +20,14 @@
   font-size: 1.125rem;
   margin: 10px;
   font-weight: 500;
-  opacity: calc(50%);
+
+  color: #999999;
   cursor: pointer;
 }
 .other a:hover {
   opacity: calc(100%);
   transition: all 0.7s;
-  color: #222;
+  color: #000;
 }
 .icon-hide-pc {
   display: none;
