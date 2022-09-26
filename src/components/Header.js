@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeaderStyle.css";
 import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
+import { RiArticleLine, RiLightbulbLine } from "react-icons/ri";
 const Header = () => {
   return (
     <div className="header">
@@ -13,10 +14,20 @@ const Header = () => {
         </svg>
       </div>
       <div className="other">
-        <a>Blog</a>
-        <a>Projects</a>
-        <a>About</a>
-        <a>
+        <a className="icon-hide-mb">Blog</a>
+        <a className="icon-hide-mb">Projects</a>
+        <a className="icon-hide-pc">
+          <RiArticleLine
+            style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
+          />
+        </a>
+        <a className="icon-hide-pc">
+          <RiLightbulbLine
+            style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
+          />
+        </a>
+
+        <a className="icon-hide-mb">
           <FiGithub
             style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
           />
