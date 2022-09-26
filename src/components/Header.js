@@ -26,7 +26,6 @@ const Header = () => {
             style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
           />
         </a>
-
         <a className="icon-hide-mb">
           <FiGithub
             style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
