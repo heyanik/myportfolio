@@ -28,11 +28,13 @@ const Header = () => {
             style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
           />
         </a>
-        <a className="icon-hide-pc">
-          <RiLightbulbLine
-            style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
-          />
-        </a>
+        <Link to="/projects" style={{ textDecoration: "none" }}>
+          <a className="icon-hide-pc">
+            <RiLightbulbLine
+              style={{ height: "19.19px", width: "19.19px", marginTop: "5px" }}
+            />
+          </a>
+        </Link>
         <a
           className="icon-hide-mb"
           href="https://github.com/anikdaspartha58"

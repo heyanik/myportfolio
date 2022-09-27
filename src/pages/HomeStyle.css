@@ -34,15 +34,21 @@
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    width: 400px;
+    height: auto;
+  }
+
   .markdown > h1 {
-    margin-left: 25px;
+    font-size: 30px;
+    margin-left: -70px;
   }
   .markdown > p {
     font-size: 1rem;
-    margin-left: 25px;
+    margin-left: -70px;
   }
   .markdown > h2 {
     font-size: 1rem;
-    margin-left: 25px;
+    margin-left: -70px;
   }
 }

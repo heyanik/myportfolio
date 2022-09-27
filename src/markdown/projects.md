@@ -33,3 +33,12 @@ GalaxyTour<br/>
 <span style="font-size:15px; opacity: calc(80%); font-weight:400;">Space travel landing page.</span>
 </span>
 </a>
+<a href="https://hulu-clone-2-0.vercel.app//" target="_blank">
+![text](hulu.svg)
+<span> 
+Hulu clone<br/>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">A movie streeming website.</span>
+</span>
+</a>
+
+## 2022-PRESENT © Anik Das Partha
