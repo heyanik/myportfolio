@@ -1,7 +1,18 @@
 .header {
   display: flex;
+  float: right;
+  margin-top: -55px;
   align-items: center;
   justify-content: space-between;
+}
+.sticky {
+  width: 200px;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 10px;
 }
 .me-icon {
   cursor: pointer;
@@ -34,6 +45,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .header {
+    margin-top: -65px;
+  }
   .me-icon > svg {
     margin-left: 20px;
   }
@@ -43,5 +57,8 @@
   }
   .icon-hide-pc {
     display: block;
+  }
+  .sticky {
+    position: inherit;
   }
 }
