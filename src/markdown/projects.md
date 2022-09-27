@@ -2,6 +2,8 @@
 
 List of projects of mine
 
+### Web Apps
+
 <a href="https://cryptodetails.vercel.app/" target="_blank">
 ![text](bitcoin.svg)
 <span> 
@@ -40,5 +42,14 @@ Hulu clone<br/>
 <span style="font-size:15px; opacity: calc(80%); font-weight:400;">A movie streeming website.</span>
 </span>
 </a>
+<a href="https://heyanik.github.io/Promodoro-Timer/" target="_blank">
+![text](pomodoro.svg)
+<span> 
+Pomodoro<br/>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">Pomodoro website.</span>
+</span>
+</a>
+
+### Mobile Apps
 
 ## 2022-PRESENT © Anik Das Partha
