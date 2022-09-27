@@ -1,7 +1,7 @@
 .project-md {
   margin-top: 50px;
   margin-left: 400px;
-  width: 500px;
+  width: 400px;
   font-family: "Inter", sans-serif;
 }
 .project-md > p {
@@ -19,14 +19,34 @@
   text-decoration: none;
   line-height: 30px;
   border-radius: 5px;
+  font-weight: 500;
   color: #999999;
 }
 .project-md > a > img {
   margin-right: 20px;
   margin-left: 20px;
+  opacity: calc(70%);
 }
 .project-md a:hover {
   background: whitesmoke;
   color: #000;
   transition: all 0.8s;
+}
+
+@media screen and (max-width: 600px) {
+  .project-md {
+    margin: 10px;
+    width: 350px;
+  }
+  .project-md > a {
+    margin-left: 16px;
+    height: 100px;
+    font-size: 20px;
+  }
+  .project-md > h1 {
+    margin-left: 30px;
+  }
+  .project-md > p {
+    margin-left: 30px;
+  }
 }
