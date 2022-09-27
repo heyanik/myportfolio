@@ -1,6 +1,8 @@
 .markdown {
   display: grid;
   justify-content: center;
+  margin-top: 80px;
+  margin-left: 100px;
 }
 .markdown > h1 {
   font-size: 2.25rem;
@@ -11,7 +13,7 @@
   font-weight: 500;
   margin-top: 35px;
   line-height: 27px;
-  color: #555555;
+  color: #999999;
 }
 
 .markdown > p > a {

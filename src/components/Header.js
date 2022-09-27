@@ -6,8 +6,8 @@ import { RiArticleLine, RiLightbulbLine } from "react-icons/ri";
 const Header = () => {
   return (
     <div className="header">
-      <div className="me-icon">
-        <Link to="/">
+      <Link to="/">
+        <div className="me-icon">
           {" "}
           <svg width="100" height="100" viewBox="0 0 1000 1000" fill="none">
             <path
@@ -15,8 +15,8 @@ const Header = () => {
               fill="black"
             />
           </svg>{" "}
-        </Link>
-      </div>
+        </div>
+      </Link>
       <div className="other">
         <a className="icon-hide-mb">Blog</a>
         <Link to="/projects" style={{ textDecoration: "none" }}>
