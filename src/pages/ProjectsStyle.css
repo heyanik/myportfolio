@@ -2,6 +2,12 @@
   margin-top: 50px;
   margin-left: 400px;
   width: 500px;
+  font-family: "Inter", sans-serif;
+}
+.project-md > p {
+  margin-top: 10px;
+  font-style: italic;
+  color: #999999;
 }
 .project-md > a {
   height: 100px;
@@ -13,11 +19,14 @@
   text-decoration: none;
   line-height: 30px;
   border-radius: 5px;
+  color: #999999;
 }
 .project-md > a > img {
   margin-right: 20px;
   margin-left: 20px;
 }
 .project-md a:hover {
+  background: whitesmoke;
   color: #000;
+  transition: all 0.8s;
 }
