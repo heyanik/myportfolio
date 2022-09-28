@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <>
       <div className="sticky">
-        <Link to="/">
+        <Link to="/" style={{ transition: "all 0.8s" }}>
           <div className="me-icon">
             {" "}
             <svg width="100" height="100" viewBox="0 0 1000 1000" fill="none">
@@ -39,14 +39,23 @@ const Header = () => {
       </div>
       <div className="header" id="header">
         <div className="other">
-          <Link to="/blogs" style={{ textDecoration: "none" }}>
+          <Link
+            to="/blogs"
+            style={{ textDecoration: "none", transition: "all 0.8s" }}
+          >
             <a className="icon-hide-mb">Blog</a>
           </Link>
-          <Link to="/projects" style={{ textDecoration: "none" }}>
+          <Link
+            to="/projects"
+            style={{ textDecoration: "none", transition: "all 0.8s" }}
+          >
             {" "}
             <a className="icon-hide-mb">Projects</a>
           </Link>
-          <Link to="/blogs" style={{ textDecoration: "none" }}>
+          <Link
+            to="/blogs"
+            style={{ textDecoration: "none", transition: "all 0.8s" }}
+          >
             <a className="icon-hide-pc">
               <RiArticleLine
                 style={{
