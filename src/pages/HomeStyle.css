@@ -32,6 +32,9 @@
   margin-top: 80px;
   color: #b2b2b2;
 }
+.dark-btn {
+  float: right;
+}
 
 @media screen and (max-width: 600px) {
   body {

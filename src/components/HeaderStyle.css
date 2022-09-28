@@ -21,6 +21,7 @@
   width: 70px;
   height: 70px;
   margin-left: 30px;
+  fill: #000;
 }
 .other {
   display: flex;
@@ -31,10 +32,23 @@
   font-size: 1.125rem;
   margin: 10px;
   font-weight: 500;
-
   color: #999999;
   cursor: pointer;
 }
+.dark-btn {
+  font-size: 1.125rem;
+  margin: 10px;
+  font-weight: 500;
+  color: #999999;
+  cursor: pointer;
+}
+
+.dark-btn:hover {
+  opacity: calc(100%);
+  transition: all 0.7s;
+  color: #000;
+}
+
 .other a:hover {
   opacity: calc(100%);
   transition: all 0.7s;

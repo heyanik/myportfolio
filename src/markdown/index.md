@@ -1,6 +1,6 @@
 # Anik Das Partha
 
-Front-end developer / Amateur designer. <br/>
+Amateur developer / Amateur designer. <br/>
 Currently working at [Nagram](https://www.instagram.com/nagram.com.bd/) . I like making interesting projects.
 
 Dreaming up ideas and making them come true is where my passion lies.  
