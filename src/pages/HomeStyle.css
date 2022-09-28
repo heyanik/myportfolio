@@ -35,8 +35,10 @@
 
 @media screen and (max-width: 600px) {
   body {
-    width: 300px;
-    height: auto;
+    /* width: 300px; */
+    width: fit-content;
+    block-size: fit-content;
+    /* height: auto; */
   }
 
   .markdown > h1 {
@@ -44,11 +46,14 @@
     margin-left: -70px;
   }
   .markdown > p {
+    /* width: fit-content;
+    block-size: fit-content; */
     font-size: 1rem;
     margin-left: -70px;
   }
   .markdown > h2 {
     font-size: 1rem;
     margin-left: -70px;
+    margin-bottom: 15px;
   }
 }
