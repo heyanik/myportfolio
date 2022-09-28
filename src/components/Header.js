@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 import { RiArticleLine, RiLightbulbLine } from "react-icons/ri";
 import { TbSwitchHorizontal } from "react-icons/tb";
+import { HiOutlineDocumentText } from "react-icons/hi";
 
 const Header = () => {
   React.useEffect(() => {
@@ -79,7 +80,23 @@ const Header = () => {
           </Link>
           <a
             className="icon-hide-mb"
-            href="https://github.com/anikdaspartha58"
+            target="blank"
+            href="./assets/resume-of-anik.pdf"
+            download
+          >
+            <HiOutlineDocumentText
+              style={{
+                height: "19.19px",
+                width: "19.19px",
+                marginTop: "5px",
+                color: "#555555;",
+              }}
+            />
+          </a>
+
+          <a
+            className="icon-hide-mb"
+            href="https://github.com/heyanik"
             target="blank"
           >
             <FiGithub
