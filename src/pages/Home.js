@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import "./HomeStyle.css";
-import { FiMoon } from "react-icons/fi";
 
 const Home = () => {
   const [postContent, setPostcontent] = useState("");
