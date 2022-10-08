@@ -52,6 +52,19 @@ Pomodoro<br/>
 
 ### Mobile Apps
 
-Coming soon...
+<a href="https://github.com/heyanik/Everyday-Meme" target="_blank">
+![text](meme.svg)
+<span> 
+EverydayMeme App<br/>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">Rendom Reddit meme mobile-app.</span>
+</span>
+</a>
+<a href="https://github.com/heyanik/Goal-Tracker" target="_blank">
+![text](todo.svg)
+<span> 
+Goal Tracker App<br/>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">Goal tracker mobile-app.</span>
+</span>
+</a>
 
 ## 2022-PRESENT © Anik Das Partha
