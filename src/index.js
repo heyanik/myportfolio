@@ -11,11 +11,11 @@ import Blog from "./pages/Blog";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    {/* <App /> */}
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/blogs" element={<Blog />} />
     </Routes>
+    {/* <App /> */}
   </BrowserRouter>
 );
