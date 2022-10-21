@@ -4,6 +4,14 @@ List of projects of mine
 
 ### Web Apps
 
+<a href="https://www.nagram.com.bd" target="_blank">
+![text](nagram.svg)
+<span> 
+Nagram.com.bd <br/>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">Shopping website based in Bangladesh.</span>
+</span>
+</a>
+
 <!-- project 1  -->
 <a href="https://fullyearevents.vercel.app/" target="_blank">
 ![text](calendar.svg)
