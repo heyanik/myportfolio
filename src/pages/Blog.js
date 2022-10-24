@@ -2,8 +2,11 @@ import React from "react";
 import Header from "../components/Header";
 import { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
+import { TabTitle } from "../components/tabtitle";
 
 const Blog = () => {
+  TabTitle("Blogs - Anik Das Partha");
+
   const [postContent, setPostcontent] = useState("");
   useEffect(() => {
     import("../markdown/blog.md").then((res) =>
@@ -17,7 +20,7 @@ const Blog = () => {
     <>
       <Header />
       <div>
-        <Markdown className="project-md">{postContent}</Markdown>
+        <Markdown className="blog-md">{postContent}</Markdown>
       </div>
     </>
   );

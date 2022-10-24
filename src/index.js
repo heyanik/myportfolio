@@ -7,6 +7,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
+import Blog1 from "./pages/blog-pages/Blog1";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/blogs" element={<Blog />} />
+      <Route path="/blogs/How-to-get-github-Achievements" element={<Blog1 />} />
     </Routes>
     {/* <App /> */}
   </BrowserRouter>

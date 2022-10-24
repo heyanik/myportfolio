@@ -1,6 +1,6 @@
 # Anik Das Partha
 
-Amateur developer / Amateur designer. <br/>
+!Amateur developer / !Amateur designer. <br/>
 Co-founder of [Nagram](https://www.nagram.com.bd) . I like making interesting projects.
 
 Dreaming up ideas and making them come true is where my passion lies.  

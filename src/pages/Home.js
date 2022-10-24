@@ -3,8 +3,11 @@ import Header from "../components/Header";
 import { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import "./HomeStyle.css";
+import { TabTitle } from "../components/tabtitle";
 
 const Home = () => {
+  TabTitle("Anik Das Partha");
+
   const [postContent, setPostcontent] = useState("");
   useEffect(() => {
     import("../markdown/index.md").then((res) =>

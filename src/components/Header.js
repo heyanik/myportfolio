@@ -26,6 +26,7 @@ const Header = () => {
     const json = JSON.stringify(darkMode);
     localStorage.setItem("site-dark-mode", json);
   }, [darkMode]);
+
   return (
     <>
       <div className="sticky">
