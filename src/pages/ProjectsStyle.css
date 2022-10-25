@@ -98,14 +98,20 @@
     margin: 10px;
     width: 350px;
   }
-  .project-md,
-  .blog-md > a {
+  .project-md > a {
     margin-left: 16px;
     height: 100px;
-    font-size: 20px;
+    font-size: 15px;
   }
-  .project-md,
+  .project-md > p {
+    margin-left: 15px;
+  }
+  .project-md > h1 {
+    font-size: 25px;
+    margin-left: 15px;
+  }
   .blog-md > h1 {
+    font-size: 25px;
     margin-left: 30px;
   }
   .project-md,
