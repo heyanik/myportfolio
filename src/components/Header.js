@@ -88,7 +88,7 @@ const Header = () => {
           <a
             className="icon-hide-mb"
             target="blank"
-            href="./assets/resume-of-anik.pdf"
+            href="resume-of-anik.pdf"
             download
           >
             <HiOutlineDocumentText
