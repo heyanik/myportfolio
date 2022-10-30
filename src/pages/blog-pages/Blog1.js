@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import { TabTitle } from "../../components/tabtitle";
+import "../../markdown/Blogs/blog.css";
 
 const Blog1 = () => {
   TabTitle("How to get github Achievements");
@@ -20,7 +21,7 @@ const Blog1 = () => {
   return (
     <div>
       <Header />
-      <Markdown className="blog-md">{postContent}</Markdown>
+      <Markdown className="blog1-md">{postContent}</Markdown>
     </div>
   );
 };
