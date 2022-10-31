@@ -42,6 +42,17 @@ td > a {
 .blog1-md > h4 > a {
   color: #222;
 }
+.blog1-md > a {
+  color: #999999;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+.blog1-md > a:hover {
+  color: #222;
+  transition: all 0.5s;
+}
 
 @media screen and (max-width: 600px) {
   .blog1-md {
@@ -64,6 +75,9 @@ td > a {
     margin-top: 50px;
     margin-left: 50px;
     color: #b2b2b2;
+  }
+  .blog1-md > a {
+    font-size: 1rem;
   }
   table,
   th,
