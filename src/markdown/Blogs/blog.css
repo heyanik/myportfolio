@@ -8,7 +8,7 @@ table,
 th,
 td {
   width: 800px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid #c8c8c87f;
   border-collapse: collapse;
 }
 th {
@@ -19,6 +19,10 @@ td {
   font-size: 1.2rem;
   font-weight: 400;
   height: 80px;
+  color: #999999;
+}
+td > a {
+  color: #222;
 }
 .badge-img > img {
   width: 50px;
@@ -32,6 +36,12 @@ td {
   margin-bottom: 10px;
   color: #b2b2b2;
 }
+.blog1-md > h4 {
+  color: #999999;
+}
+.blog1-md > h4 > a {
+  color: #222;
+}
 
 @media screen and (max-width: 600px) {
   .blog1-md {
@@ -44,6 +54,10 @@ td {
   .blog1-md > h3 {
     font-size: 16px;
   }
+  .blog1-md > h4 {
+    font-size: 15px;
+  }
+
   .blog1-md > h2 {
     font-size: 0.9rem;
     font-weight: 400;
