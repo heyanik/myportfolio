@@ -1,0 +1,90 @@
+.hobby {
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 800px;
+  font-family: "Inter", sans-serif;
+}
+
+.hobby > h2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  color: #b2b2b2;
+}
+.hobby > h4 {
+  color: #999999;
+}
+.hobby > h4 > a {
+  color: #222;
+}
+.hobby > a {
+  color: #999999;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+.hobby > a:hover {
+  color: #222;
+  transition: all 0.5s;
+}
+.hobby-post > img {
+  width: 150px;
+  height: auto;
+}
+.hobby-post {
+  display: flex;
+  background: #f8f9fa;
+  border: 0.2px solid #b2b2b2;
+  box-shadow: 1px #b2b2b2;
+}
+.hobby-post-txt {
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #999999;
+}
+.hobby-post-txt > h3 {
+  color: #222;
+}
+.hobby-post-txt > p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.recnt-read {
+  display: flex;
+}
+.recnt-read > img {
+  width: 150px;
+  height: auto;
+  margin-right: 15px;
+}
+/* 
+@media screen and (max-width: 600px) {
+  .hobby {
+    margin-left: 30px;
+    width: 350px;
+  }
+  .hobby > h1 {
+    font-size: 21px;
+  }
+  .hobby > h3 {
+    font-size: 16px;
+  }
+  .hobby > h4 {
+    font-size: 15px;
+  }
+
+  .hobby > h2 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #b2b2b2;
+  }
+  .hobby > a {
+    font-size: 1rem;
+  }
+} */

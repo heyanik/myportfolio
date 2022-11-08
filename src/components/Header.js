@@ -61,6 +61,13 @@ const Header = () => {
             <a className="icon-hide-mb">Projects</a>
           </Link>
           <Link
+            to="/hobby"
+            style={{ textDecoration: "none", transition: "all 0.8s" }}
+          >
+            {" "}
+            <a className="icon-hide-mb">Hobby</a>
+          </Link>
+          <Link
             to="/blogs"
             style={{ textDecoration: "none", transition: "all 0.8s" }}
           >

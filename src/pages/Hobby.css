@@ -1,0 +1,19 @@
+.links-div {
+  margin-top: 50px;
+  margin-left: 400px;
+  font-family: "Inter", sans-serif;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  color: #999999;
+}
+.links2 {
+  margin-left: 20px;
+}
+
+.active {
+  color: #222;
+}

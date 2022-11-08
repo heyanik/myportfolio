@@ -37,7 +37,7 @@ Tic-Tac-Toe <br/>
 </span>
 </a>
 <!-- project 4  -->
-<a href="https://3tgame.vercel.app/" target="_blank">
+<a href="https://galaxytour.vercel.app/" target="_blank">
 ![text](space.svg)
 <span> 
 GalaxyTour<br/>
