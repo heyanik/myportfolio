@@ -44,6 +44,7 @@
   background: #f8f9fa;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
+  -webkit-transition: background-color 0.8s ease-out;
 }
 .hobby-post-txt {
   margin-top: 15px;

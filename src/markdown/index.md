@@ -11,6 +11,6 @@ of my photos can be found on [Instagram](https://www.instagram.com/anik.me/) . I
 (currently in Bangladesh), maybe we can hang out and take some photos or code together.
 
 Find me on [Github](https://github.com/anikdaspartha58) ,[Twitter](https://twitter.com/hianikdaspartha)  
-Mail me at [anikdaspartha58@gmail.com]()
+Mail me at: <a href="mailto:anikdaspartha58@gmail.com">anikdaspartha@gmail.com</a>
 
 ## 2022-PRESENT © Anik Das Partha
