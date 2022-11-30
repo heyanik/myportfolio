@@ -35,9 +35,15 @@
 }
 .hobby-post {
   display: flex;
-  background: #f8f9fa;
-  border: 0.2px solid #b2b2b2;
+
+  background: transparent;
+
   box-shadow: 1px #b2b2b2;
+}
+.hobby-post:hover {
+  background: #f8f9fa;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .hobby-post-txt {
   margin-top: 15px;
