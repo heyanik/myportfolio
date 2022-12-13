@@ -2,11 +2,11 @@
 
 <br>
 <div class="hobby-post">
-![book](/assets/dopamine-detox.jpeg)
+![book](/assets/sla.png)
 <div class="hobby-post-txt">
-<h3>Dopamine Detox</h3>
-<h5> Author: Gabriel Kelly</h5>
-<p>Explains how our attention is hijacked by things like social media, internet & video games & how they cause us to be overstimulated and our dopamine to perhaps be processed differently so that important tasks that cause us to feel fulfilled rather than just entertained are neglected and we can't focus on them as well.</p>
+<h3>Steal Like an Artist</h3>
+<h5> Book by Austin Kleon </h5>
+<p>Steal Like An Artist gives you permission to copy your heroes' work and use it as a springboard to find your own, unique style, all while remembering to have fun, creating the right work environment for your art and letting neither criticism nor praise drive you off track.</p>
 </div>
 </div>
 <br>
@@ -16,6 +16,7 @@
 <div class="recnt-read">
 ![book](/assets/tagr.jpeg)
 ![book](/assets/tsongaf.jpeg)
+![book](/assets/dopamine-detox.jpeg)
 </div>
 
 ## 2022-PRESENT © Anik Das Partha

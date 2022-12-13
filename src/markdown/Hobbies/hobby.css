@@ -31,7 +31,7 @@
 }
 .hobby-post > img {
   width: 150px;
-  height: auto;
+  height: 180px;
 }
 .hobby-post {
   display: flex;
@@ -67,6 +67,12 @@
   width: 150px;
   height: auto;
   margin-right: 15px;
+}
+.recnt-read > img {
+  transition: all 0.2s ease-in-out;
+}
+.recnt-read > img:hover {
+  transform: scale(1.1);
 }
 /* 
 @media screen and (max-width: 600px) {
