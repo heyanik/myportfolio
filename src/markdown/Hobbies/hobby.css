@@ -74,6 +74,20 @@
 .recnt-read > img:hover {
   transform: scale(1.1);
 }
+.my-bookself {
+  display: flex;
+}
+.my-bookself > img {
+  width: 150px;
+  height: auto;
+  margin-right: 15px;
+}
+.my-bookself > img {
+  transition: all 0.2s ease-in-out;
+}
+.my-bookself > img:hover {
+  transform: scale(1.1);
+}
 /* 
 @media screen and (max-width: 600px) {
   .hobby {

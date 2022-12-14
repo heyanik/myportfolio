@@ -13,6 +13,10 @@
 .links2 {
   margin-left: 20px;
 }
+.links:hover {
+  color: #222;
+  transition: all 0.7s;
+}
 
 .active {
   color: #222;

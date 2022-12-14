@@ -19,4 +19,24 @@
 ![book](/assets/dopamine-detox.jpeg)
 </div>
 
+## My Bookself
+
+<div class="my-bookself">
+![book](/assets/Ah.jpeg)
+![book](/assets/rdpd.jpeg)
+![book](/assets/ta.jpeg)
+![book](/assets/tagr.jpeg)
+![book](/assets/tsongaf.jpeg)
+![book](/assets/dopamine-detox.jpeg) 
+</div>
+<br>
+<div class="my-bookself">
+![book](/assets/ikigai.jpeg)
+![book](/assets/pom.jpg)
+![book](/assets/dw.jpeg)
+![book](/assets/tlp.jpeg)
+![book](/assets/t7hohep.jpeg)
+![book](/assets/htwfip.jpg)
+</div>
+
 ## 2022-PRESENT © Anik Das Partha
