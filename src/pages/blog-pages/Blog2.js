@@ -6,7 +6,7 @@ import { TabTitle } from "../../components/tabtitle";
 import "../../markdown/Blogs/blog.css";
 
 const Blog2 = () => {
-  TabTitle("How to get github Achievements");
+  TabTitle("2022 recap");
 
   const [postContent, setPostcontent] = useState("");
   useEffect(() => {
