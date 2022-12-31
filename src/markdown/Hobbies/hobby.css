@@ -35,7 +35,7 @@
 }
 .hobby-post {
   display: flex;
-
+  cursor: pointer;
   background: transparent;
 
   box-shadow: 1px #b2b2b2;
@@ -45,6 +45,7 @@
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   -webkit-transition: background-color 0.8s ease-out;
+  cursor: pointer;
 }
 .hobby-post-txt {
   margin-top: 15px;

@@ -42,9 +42,9 @@ const Home = () => {
   return (
     <>
       <Header />
-      {/* <button onClick={() => setDarkMode(!darkMode)}> */}
-      {/* <FiMoon className="dark-btn" onClick={() => setDarkMode(!darkMode)} /> */}
-      {/* </button> */}
+      {/* <button onClick={() => setDarkMode(!darkMode)}>
+        <FiMoon className="dark-btn" onClick={() => setDarkMode(!darkMode)} />
+      </button> */}
       <div>
         <Markdown className="markdown">{postContent}</Markdown>
       </div>
