@@ -204,9 +204,9 @@ td > a {
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid #f8f9fa;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #f8f9fa transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */

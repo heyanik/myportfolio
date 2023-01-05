@@ -38,5 +38,14 @@
 ![book](/assets/t7hohep.jpeg)
 ![book](/assets/htwfip.jpg)
 </div>
+<br>
+<div class="my-bookself">
+![book](/assets/tpoe.jpg)
+![book](/assets/bao.jpg)
+![book](/assets/cb.jpg)
+![book](/assets/hnobw.jpeg)
+![book](/assets/tsslos.jpg)
+![book](/assets/tbodc.jpeg)
+</div>
 
 ## 2022-PRESENT © Anik Das Partha
