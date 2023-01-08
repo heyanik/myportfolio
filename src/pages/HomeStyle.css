@@ -10,12 +10,16 @@
 }
 .markdown > p {
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 35px;
   line-height: 27px;
   color: #999999;
 }
 
+.test > a {
+  text-decoration: none;
+  color: #000;
+}
 .markdown > p > a {
   text-decoration: #b2b2b2 underline 1px;
   text-underline-position: under;
@@ -38,16 +42,21 @@
 
 @media screen and (max-width: 600px) {
   body {
-    width: 320px;
+    width: 310px;
+    height: auto;
+  }
+  .markdown {
+    width: 250px;
     height: auto;
   }
 
   .markdown > h1 {
-    font-size: 25px;
+    font-size: 33px;
     margin-left: -70px;
   }
   .markdown > p {
-    font-size: 0.9rem;
+    /* font-size: 1.1rem; */
+    font-size: 16px;
     margin-left: -70px;
   }
   .markdown > h2 {

@@ -5,6 +5,7 @@ import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 import { RiArticleLine, RiLightbulbLine } from "react-icons/ri";
 import { TbSwitchHorizontal } from "react-icons/tb";
 import { HiOutlineDocumentText } from "react-icons/hi";
+import { Markdown } from "markdown-to-jsx";
 
 const Header = () => {
   React.useEffect(() => {
@@ -21,7 +22,7 @@ const Header = () => {
     if (darkMode) {
       document.body.style.background = "#537F6B";
     } else {
-      document.body.style.background = "white";
+      document.body.style.backgroundColor = "white";
     }
     const json = JSON.stringify(darkMode);
     localStorage.setItem("site-dark-mode", json);
