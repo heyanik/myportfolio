@@ -4,10 +4,19 @@ List of projects of mine
 
 ### Web Apps
 
+<!-- project 7  -->
+<a href="https://geteat.vercel.app/" target="_blank">
+![text](geteat-.svg)
+<span> 
+GetEat<br/>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">GetEat is foodcart restaurant.</span>
+</span>
+</a>
+<!-- project 8  -->
 <a href="https://www.nagram.com.bd" target="_blank">
 ![text](nagram.svg)
 <span> 
-Nagram.com.bd <br/>
+Nagram <br/>
 <span style="font-size:15px; opacity: calc(80%); font-weight:400;">Shopping website based in Bangladesh.</span>
 </span>
 </a>
@@ -20,6 +29,7 @@ Fullyearevents <br/>
 <span style="font-size:15px; opacity: calc(80%); font-weight:400;">Website with contains events.</span>
 </span>
 </a>
+
 <!-- project 2  -->
 <a href="https://cryptodetails.vercel.app/" target="_blank">
 ![text](bitcoin.svg)
