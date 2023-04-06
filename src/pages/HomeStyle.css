@@ -6,11 +6,11 @@
 }
 .markdown > h1 {
   font-size: 2.25rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 .markdown > p {
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 35px;
   line-height: 27px;
   color: #999999;
@@ -25,6 +25,10 @@
   text-underline-position: under;
   color: #000;
   cursor: pointer;
+}
+.markdown > p > a > img {
+  width: 19px;
+  height: 19px;
 }
 .markdown > p > a:hover {
   transition: all 0.7s;
@@ -63,5 +67,9 @@
     font-size: 0.9rem;
     margin-left: -70px;
     margin-bottom: 15px;
+  }
+  .markdown > p > a > img {
+    width: 14px;
+    height: 14px;
   }
 }
