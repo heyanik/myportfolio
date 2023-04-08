@@ -3,9 +3,9 @@ import "./HeaderStyle.css";
 import { Link } from "react-router-dom";
 import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 import { RiArticleLine, RiLightbulbLine } from "react-icons/ri";
-import { TbSwitchHorizontal } from "react-icons/tb";
+// import { TbSwitchHorizontal } from "react-icons/tb";
 import { HiOutlineDocumentText } from "react-icons/hi";
-import { Markdown } from "markdown-to-jsx";
+// import { Markdown } from "markdown-to-jsx";
 
 const Header = () => {
   React.useEffect(() => {
@@ -20,7 +20,7 @@ const Header = () => {
   const [darkMode, setDarkMode] = React.useState(false);
   React.useEffect(() => {
     if (darkMode) {
-      document.body.style.background = "#537F6B";
+      document.body.style.background = "#fff";
     } else {
       document.body.style.backgroundColor = "white";
     }
@@ -141,14 +141,14 @@ const Header = () => {
               }}
             />
           </a>
-          <TbSwitchHorizontal
+          {/* <TbSwitchHorizontal
             style={{
               height: "19.19px",
               width: "19.19px",
             }}
             className="dark-btn"
             onClick={() => setDarkMode(!darkMode)}
-          />
+          /> */}
         </div>
       </div>
     </>

@@ -1,7 +1,7 @@
 # Anik Das Partha
 
-!Amateur developer / !Amateur designer. <br/>
-Co-founder of [Nagram](https://www.nagram.com.bd) & [GetEat](https://geteat.vercel.app/). I like making interesting projects.
+!Developer / !Product Manager. <br/>
+Co-founder of [Nagram](https://www.nagram.com.bd) & [GetEat](https://geteat.vercel.app/). I like making interesting projects. Solving real-life problems where my passion lies.
 
 Dreaming up ideas and making them come true is where my passion lies.  
 You can find [my full projects list here.](https://heyanik.vercel.app/projects)

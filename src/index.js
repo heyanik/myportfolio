@@ -9,6 +9,7 @@ import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import Blog1 from "./pages/blog-pages/Blog1";
 import Blog2 from "./pages/blog-pages/Blog2";
+import Blog3 from "./pages/blog-pages/Blog3";
 import Hobby from "./pages/Hobby";
 import HobbyReading from "./pages/hobby-pages/HobbyReading";
 import HobbyTravelling from "./pages/hobby-pages/HobbyTraveling";
@@ -26,6 +27,10 @@ root.render(
       </Route>
       <Route path="/blogs/How-to-get-github-Achievements" element={<Blog1 />} />
       <Route path="/blogs/2022-recap" element={<Blog2 />} />
+      <Route
+        path="/blogs/Challenges-of-Running-a-Restaurant"
+        element={<Blog3 />}
+      />
     </Routes>
     {/* <App /> */}
   </BrowserRouter>

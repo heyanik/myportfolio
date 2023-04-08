@@ -144,6 +144,28 @@ td > a {
 
 /* blog-2 */
 
+/* blog-3 */
+.intro {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.Problems {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.solution {
+  color: #999999;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* blog-3 */
+
 @media screen and (max-width: 600px) {
   .blog1-md {
     margin-left: 30px;
@@ -220,4 +242,29 @@ td > a {
     left: 0%;
   }
   /* blog-2 */
+
+  /* blog-3 */
+  .intro {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .Problems {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .solution {
+    color: #999999;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .disclaimer {
+    font-size: 0.5rem;
+  }
+
+  /* blog-3 */
 }
