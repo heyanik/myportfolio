@@ -96,7 +96,7 @@ const Header = () => {
           <a
             className="icon-hide-mb"
             target="blank"
-            href="resume-of-anik.pdf"
+            href="https://drive.google.com/file/d/1BeizlYMYY7KofDT1PYa3th0DVA3vn155/view?usp=share_link"
             download
           >
             <HiOutlineDocumentText
