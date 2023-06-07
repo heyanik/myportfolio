@@ -77,7 +77,9 @@
 .blog-md > h3 {
   margin-top: 30px;
   font-size: 7rem;
-  color: #99999956;
+  color: #ffffff56;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.082);
   margin-left: -50px;
 }
 .first-blog > a {
