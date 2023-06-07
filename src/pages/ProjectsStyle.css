@@ -1,29 +1,43 @@
 .project-md {
   margin-top: 50px;
   margin-left: 400px;
-  width: 400px;
-  font-family: "Inter", sans-serif;
+  width: 700px;
+  font-family: "Inter";
+}
+.project-md > h3 {
+  margin-top: 20px;
+}
+.project-md > h2 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #b2b2b2;
+  font-weight: 200;
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
 .blog-md {
   margin-top: 50px;
   margin-left: 400px;
   width: 400px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
 }
-.project-md > h1 {
+.projects > h1 {
   margin-top: 40px;
 }
 
 .blog-md > h1 {
   margin-top: 40px;
 }
-.project-md > p {
+.projects > p {
   margin-top: 10px;
   font-style: italic;
   color: #999999;
 }
-.project-md > a {
+.projects > a {
   height: 100px;
   margin-top: 40px;
   margin-left: -16px;
@@ -36,24 +50,24 @@
   font-weight: 500;
   color: #999999;
 }
-.project-md > a > img {
+.projects > a > img {
   margin-right: 20px;
   margin-left: 20px;
   opacity: calc(70%);
 }
-.project-md a:hover {
+.projects > a:hover {
   background: whitesmoke;
   color: #000;
   transition: all 0.8s;
 }
-.project-md > h2 {
+.projects > h2 {
   font-size: 1.125rem;
   font-weight: 400;
   margin-top: 80px;
   margin-bottom: 10px;
   color: #b2b2b2;
 }
-.project-md > h3 {
+.projects > h3 {
   font-size: 1.125rem;
   font-weight: 500;
   color: #000;

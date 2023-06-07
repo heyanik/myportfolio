@@ -4,6 +4,7 @@ List of projects of mine
 
 ### Web Apps
 
+<div class="projects">
 <!-- project 7  -->
 <a href="https://geteat.vercel.app/" target="_blank">
 ![text](geteat-.svg)
@@ -70,9 +71,11 @@ Pomodoro<br/>
 <span style="font-size:15px; opacity: calc(80%); font-weight:400;">Pomodoro website.</span>
 </span>
 </a>
+</div>
 
 ### Mobile Apps
 
+<div class="projects">
 <!-- project 1  -->
 <a href="https://github.com/heyanik/Everyday-Meme" target="_blank">
 ![text](meme.svg)
@@ -89,5 +92,6 @@ Goal Tracker App<br/>
 <span style="font-size:15px; opacity: calc(80%); font-weight:400;">Goal tracker mobile-app.</span>
 </span>
 </a>
+</div>
 
 ## 2022-PRESENT © Anik Das Partha
