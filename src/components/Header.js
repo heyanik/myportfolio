@@ -109,11 +109,7 @@ const Header = () => {
             />
           </a>
 
-          <a
-            className="icon-hide-mb"
-            href="https://github.com/heyanik"
-            target="blank"
-          >
+          <a href="https://github.com/heyanik" target="blank">
             <FiGithub
               style={{
                 height: "19.19px",
@@ -123,7 +119,11 @@ const Header = () => {
               }}
             />
           </a>
-          <a href="https://twitter.com/hianikdaspartha" target="blank">
+          <a
+            className="icon-hide-mb"
+            href="https://twitter.com/hianikdaspartha"
+            target="blank"
+          >
             <FiTwitter
               style={{
                 height: "19.19px",
