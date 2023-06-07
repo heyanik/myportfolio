@@ -23,12 +23,12 @@
 .markdown > p > a {
   text-decoration: #b2b2b2 underline 1px;
   text-underline-position: under;
-  color: #000;
+  color: #252525;
   cursor: pointer;
 }
 .markdown > p > a > img {
-  width: 19px;
-  height: 19px;
+  width: 18px;
+  margin-bottom: -2px;
 }
 .markdown > p > a:hover {
   transition: all 0.7s;
