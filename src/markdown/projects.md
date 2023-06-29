@@ -1,7 +1,5 @@
 # Projects
 
-List of projects of mine
-
 ### Web Apps
 
 <div class="projects">
@@ -18,7 +16,7 @@ GetEat<br/>
 ![text](nagram.svg)
 <span> 
 Nagram <br/>
-<span style="font-size:15px; opacity: calc(80%); font-weight:400;">Shopping website based in Bangladesh.</span>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">E-commerce website.</span>
 </span>
 </a>
 

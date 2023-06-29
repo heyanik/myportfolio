@@ -1,23 +1,38 @@
 .project-md {
   margin-top: 50px;
-  margin-left: 400px;
-  width: 700px;
+  margin-left: 200px;
+  width: 1000px;
   font-family: "Inter";
 }
+.project-md > h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 800;
+  /* margin-right: 60px; */
+}
 .project-md > h3 {
-  margin-top: 20px;
+  margin-top: 40px;
+  display: flex;
+  color: #374151;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
 }
 .project-md > h2 {
   margin-top: 20px;
   font-size: 14px;
   color: #b2b2b2;
   font-weight: 200;
+  display: flex;
+  justify-content: center;
 }
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  margin: auto;
 }
 .blog-md {
   margin-top: 50px;
@@ -145,12 +160,14 @@
     margin-top: 50px;
     margin-left: 30px;
     color: #b2b2b2;
+    display: flex;
   }
   .blog-md > h2 {
     font-size: 0.9rem;
     font-weight: 400;
     margin-top: 50px;
     margin-left: 50px;
+
     color: #b2b2b2;
   }
   .projects > h3 {
