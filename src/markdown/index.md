@@ -18,4 +18,6 @@ Find me on <a href="https://github.com/heyanik" rel="Github" target="_blank">![G
 
 Mail me at: <a href="mailto:anikdaspartha58@gmail.com" rel="mail" target="_blank">![mail](mail.png) anikdaspartha</a>
 
+<span className="hello_img"><a href="https://open.spotify.com/playlist/3L7lZl8vacdQwK2XzcYS2u?si=z2gYYopdTYWgoUfGVOhyPQ" rel="Spotify" target="_blank">![](hellod.png)</a></span>
+
 ## 2022-PRESENT © Anik Das Partha
