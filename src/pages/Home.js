@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import "./HomeStyle.css";
 import { TabTitle } from "../components/tabtitle";
+// import { FiMoon } from "react-icons/fi";
 
 const Home = () => {
   TabTitle("Anik Das Partha");

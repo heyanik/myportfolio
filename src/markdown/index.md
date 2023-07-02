@@ -1,6 +1,6 @@
 # Anik Das Partha
 
-!Developer / !Product Manager. <br/>
+!Developer / !Product Designer. <br/>
 Co-founder of [Nagram](https://www.nagram.com.bd) & [GetEat](https://geteat.vercel.app/). I like making interesting projects.
 
 Dreaming up ideas and making them come true is where my passion lies.  
