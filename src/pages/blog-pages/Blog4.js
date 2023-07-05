@@ -8,7 +8,7 @@ import "../../markdown/Blogs/blog.css";
 import MarkdownPreview from "@uiw/react-markdown-preview";
 
 const Blog4 = () => {
-  TabTitle("Challenges of Running a Restaurant");
+  TabTitle("How to use markdown in reactjs");
 
   const [postContent, setPostcontent] = useState("");
   useEffect(() => {
