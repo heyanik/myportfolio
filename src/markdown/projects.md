@@ -3,6 +3,14 @@
 ### Web Apps
 
 <div class="projects">
+<!-- project 9  -->
+<a href="https://blockstak-nft-marketplace.netlify.app/" target="_blank">
+![text](nfter.svg)
+<span> 
+NFTER<br/>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">NFT marketplace.</span>
+</span>
+</a>
 <!-- project 7  -->
 <a href="https://geteat.vercel.app/" target="_blank">
 ![text](geteat-.svg)
