@@ -13,6 +13,7 @@ import Blog3 from "./pages/blog-pages/Blog3";
 import Hobby from "./pages/Hobby";
 import HobbyReading from "./pages/hobby-pages/HobbyReading";
 import HobbyTravelling from "./pages/hobby-pages/HobbyTraveling";
+import Blog4 from "./pages/blog-pages/Blog4";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -31,7 +32,9 @@ root.render(
         path="/blogs/Challenges-of-Running-a-Restaurant"
         element={<Blog3 />}
       />
+      <Route path="/blogs/How-to-Use-Markdown-in-ReactJS" element={<Blog4 />} />
     </Routes>
+
     {/* <App /> */}
   </BrowserRouter>
 );

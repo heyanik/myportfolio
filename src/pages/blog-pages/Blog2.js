@@ -21,7 +21,7 @@ const Blog2 = () => {
   return (
     <div>
       <Header />
-      <Markdown className="blog1-md">{postContent}</Markdown>
+      <Markdown className="blog-md">{postContent}</Markdown>
     </div>
   );
 };

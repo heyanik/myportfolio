@@ -1,61 +1,33 @@
-.blog1-md {
+/* global style for all md files  */
+.blog-md {
   margin-top: 50px;
   margin-left: 400px;
   width: 800px;
   font-family: "Inter", sans-serif;
 }
-table,
-th,
-td {
-  width: 800px;
-  border: 1px solid #c8c8c87f;
-  border-collapse: collapse;
-}
-th {
-  height: 50px;
-  font-weight: 800;
-}
-td {
-  font-size: 1.2rem;
-  font-weight: 400;
-  height: 80px;
-  color: #999999;
-}
-td > a {
-  color: #222;
-}
-.badge-img > img {
-  width: 50px;
-  height: 50px;
-}
-
-.blog1-md > h2 {
-  font-size: 1.125rem;
-  font-weight: 400;
-  margin-top: 80px;
-  margin-bottom: 10px;
-  color: #b2b2b2;
-}
-.blog1-md > h4 {
-  color: #999999;
-}
-.blog1-md > h4 > a {
-  color: #222;
-}
-.blog1-md > a {
+.blog-md > .cd-style {
   color: #999999;
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   border-bottom: 1px solid;
 }
-.blog1-md > a:hover {
+.blog-md > .cd-style:hover {
   color: #222;
   transition: all 0.5s;
+  text-decoration: none;
 }
 
-/* blog-2 */
-
+.blog-md > .copyright-txt {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  color: #b2b2b2;
+}
+/* ////////////////////*/
+/*  */
+/*  */
 /* Container around content */
 .container {
   padding: 10px 40px;
@@ -142,56 +114,25 @@ td > a {
   text-align: justify;
 }
 
-/* blog-2 */
-
-/* blog-3 */
-.intro {
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-.Problems {
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-.solution {
-  color: #999999;
-  padding: 10px;
-  background-color: #f8f9fa;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-top: 10px;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-/* blog-3 */
-
 @media screen and (max-width: 600px) {
-  .blog1-md {
-    margin-left: 30px;
+  /* global style for all md files  */
+  .blog-md {
+    margin-left: 20px;
     width: 350px;
   }
-  .blog1-md > h1 {
-    font-size: 21px;
-  }
-  .blog1-md > h3 {
-    font-size: 16px;
-  }
-  .blog1-md > h4 {
-    font-size: 15px;
-  }
-
-  .blog1-md > h2 {
+  .blog-md > .copyright-txt {
     font-size: 0.9rem;
     font-weight: 400;
     margin-top: 50px;
     margin-left: 50px;
     color: #b2b2b2;
   }
-  .blog1-md > a {
+  .blog-md > .cd-style {
     font-size: 1rem;
   }
-  /* blog-1  */
+  /*  */
+
+  /* blog-1 
   table,
   th,
   td {
@@ -212,7 +153,7 @@ td > a {
   .badge-img > img {
     width: 40px;
     height: 40px;
-  }
+  } */
   /* blog-1  */
 
   /* blog-2 */
@@ -241,30 +182,4 @@ td > a {
   .right {
     left: 0%;
   }
-  /* blog-2 */
-
-  /* blog-3 */
-  .intro {
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  .Problems {
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  .solution {
-    color: #999999;
-    padding: 10px;
-    background-color: #f8f9fa;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
-  .disclaimer {
-    font-size: 0.5rem;
-  }
-
-  /* blog-3 */
 }

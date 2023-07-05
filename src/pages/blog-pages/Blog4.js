@@ -7,12 +7,12 @@ import "../../markdown/Blogs/blog.css";
 // import remarkGfm from "remark-gfm";
 import MarkdownPreview from "@uiw/react-markdown-preview";
 
-const Blog3 = () => {
+const Blog4 = () => {
   TabTitle("Challenges of Running a Restaurant");
 
   const [postContent, setPostcontent] = useState("");
   useEffect(() => {
-    import("../../markdown/Blogs/blog-3.md").then((res) =>
+    import("../../markdown/Blogs/blog-4.md").then((res) =>
       fetch(res.default)
         .then((response) => response.text())
         .then((response) => setPostcontent(response))
@@ -23,12 +23,12 @@ const Blog3 = () => {
   return (
     <div>
       <Header />
-      {/* <Markdown className="blog1-md blog3-md" remarkPlugins={[remarkGfm]}>
+      {/* <Markdown className="blog1-md blog4-md" remarkPlugins={[remarkGfm]}>
         {postContent}
       </Markdown> */}
-      <MarkdownPreview className="blog-md blog3-md" source={postContent} />
+      <MarkdownPreview className="blog-md blog4-md" source={postContent} />
     </div>
   );
 };
 
-export default Blog3;
+export default Blog4;

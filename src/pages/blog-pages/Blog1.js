@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "../../components/Header";
 import { useState, useEffect } from "react";
-import Markdown from "markdown-to-jsx";
+// import Markdown from "markdown-to-jsx";
 import { TabTitle } from "../../components/tabtitle";
 import "../../markdown/Blogs/blog.css";
+import MarkdownPreview from "@uiw/react-markdown-preview";
 
 const Blog1 = () => {
   TabTitle("How to get github Achievements");
@@ -21,7 +22,8 @@ const Blog1 = () => {
   return (
     <div>
       <Header />
-      <Markdown className="blog1-md">{postContent}</Markdown>
+      {/* <Markdown className="blog-md">{postContent}</Markdown> */}
+      <MarkdownPreview className="blog-md blog1" source={postContent} />
     </div>
   );
 };

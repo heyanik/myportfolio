@@ -80,5 +80,8 @@
     </div>
   </div>
 <br>
-<a href="./">cd ..</a>
-## 2022-PRESENT © Anik Das Partha
+<br>
+<a className="cd-style" href="./">cd ..</a>
+<br>
+<br>
+<span className="copyright-txt">2022-PRESENT © Anik Das Partha</span>
