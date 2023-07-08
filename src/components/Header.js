@@ -62,7 +62,7 @@ const Header = () => {
             <a className="icon-hide-mb">Projects</a>
           </Link>
           <Link
-            to="/hobby"
+            to="/hobby/reading"
             style={{ textDecoration: "none", transition: "all 0.8s" }}
           >
             {" "}

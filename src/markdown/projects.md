@@ -100,4 +100,17 @@ Goal Tracker App<br/>
 </a>
 </div>
 
+### Open Source Project
+
+<div className="projects">
+<!-- project 1  -->
+<a href="https://mastermosai.netlify.app/" target="_blank">
+![text](mm.svg)
+<span> 
+Mastermosai<br/>
+<span style="font-size:15px; opacity: calc(80%); font-weight:400;">A free Open Source plateform</span>
+</span>
+</a>
+</div>
+
 ## 2022-PRESENT © Anik Das Partha
