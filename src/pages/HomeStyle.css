@@ -14,10 +14,17 @@
 }
 .markdown > p {
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 35px;
   line-height: 27px;
   color: #999999;
+}
+
+.mid-brake {
+  margin-top: 30px;
+  width: 60px;
+  border: 1px solid #d8d8d8;
+  margin-left: 30%;
 }
 
 .test > a {
@@ -64,7 +71,12 @@
     width: 250px;
     height: auto;
   }
-
+  .mid-brake {
+    margin-top: 30px;
+    width: 60px;
+    border: 1px solid #d8d8d8;
+    margin-left: 20%;
+  }
   .markdown > h1 {
     font-size: 33px;
     margin-left: -70px;

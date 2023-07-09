@@ -10,9 +10,11 @@ Outside of programming,I enjoy doing photography and traveling. Some
 of my photos can be found on <a href="https://www.instagram.com/anik.me/" rel="Instagram" target="_blank">![Instagtam](instagram.png) Instagram</a>. If you happen to be in the same city I live  
 (currently in Bangladesh), maybe we can hang out and take some photos or code together.
 
-<!-- Find me on [Github](https://github.com/anikdaspartha58) ,[Twitter](https://twitter.com/hianikdaspartha)   -->
+<span className="mid-brake"></span>
 
-Find me on <a href="https://github.com/heyanik" rel="Github" target="_blank">![Github](github.png) Github</a> , <a href="https://www.linkedin.com/in/anikdaspartha/" rel="Linkedin" target="_blank">![Linkedin](linkedin.png) Linkedin</a>, <a href="https://twitter.com/hianikdaspartha" rel="Twitter" target="_blank">![Twitter](twitter.png) Twitter</a>, <a href="https://www.instagram.com/anik.me/" rel="Instagram" target="_blank">![Instagtam](instagram.png) Instagram</a>, <a href="https://facebook.com/anikdaspartha" rel="Facebook" target="_blank">![Facebook](facebook.png) Facebook</a>
+Find me on <br>
+<br>
+<a href="https://github.com/heyanik" rel="Github" target="_blank">![Github](github.png) Github</a> , <a href="https://www.linkedin.com/in/anikdaspartha/" rel="Linkedin" target="_blank">![Linkedin](linkedin.png) Linkedin</a>, <a href="https://twitter.com/hianikdaspartha" rel="Twitter" target="_blank">![Twitter](twitter.png) Twitter</a>, <a href="https://www.instagram.com/anik.me/" rel="Instagram" target="_blank">![Instagtam](instagram.png) Instagram</a>, <a href="https://facebook.com/anikdaspartha" rel="Facebook" target="_blank">![Facebook](facebook.png) Facebook</a>
 
 <!-- Mail me at: <a href="mailto:anikdaspartha58@gmail.com">anikdaspartha@gmail.com</a> -->
 
