@@ -7,7 +7,8 @@ Dreaming up ideas and making them come true is where my passion lies.
 You can find [my full projects list here.](https://heyanik.vercel.app/projects)
 
 Outside of programming,I enjoy doing photography and traveling. Some  
-of my photos can be found on <a href="https://www.instagram.com/anik.me/" rel="Instagram" target="_blank">![Instagtam](instagram.png) Instagram</a>. If you happen to be in the same city I live (currently in Bangladesh), maybe we can hang out and take some photos or code together.
+of my photos can be found on <a href="https://www.instagram.com/anik.me/" rel="Instagram" target="_blank">![Instagtam](instagram.png) Instagram</a>. If you happen to be in the same city I live <br>
+(currently in Bangladesh), maybe we can hang out and take some photos or code together.
 
 <span className="mid-brake"></span>
 
