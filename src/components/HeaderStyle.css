@@ -21,8 +21,57 @@
   width: 50px;
   height: 50px;
   margin-left: 70px;
-  fill: #000;
+  /* fill: #000; */
 }
+
+/* icon animation */
+
+@media (prefers-reduced-motion) {
+  .path1 {
+    animation: none !important;
+    stroke-dasharray: unset !important;
+  }
+}
+@media print {
+  .path1 {
+    animation: none !important;
+    stroke-dasharray: unset !important;
+  }
+}
+@keyframes grow {
+  0% {
+    stroke-dashoffset: 1%;
+    stroke-dasharray: 0 350px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    stroke-dasharray: 350px 0;
+  }
+  85% {
+    stroke-dasharray: 350px 0;
+  }
+  95%,
+  to {
+    stroke-dasharray: 0 350px;
+  }
+}
+.path1 {
+  stroke-dashoffset: 1px;
+  stroke-dasharray: 350px 0;
+  animation: grow 10s ease forwards infinite;
+  transform-origin: center;
+  stroke: #303030;
+  animation-delay: 0s;
+}
+.dark .path1 {
+  stroke: #fdfdfd;
+}
+
+/* icon animation */
+
 .other {
   margin-top: 10px;
   display: flex;
@@ -64,10 +113,13 @@
     width: auto;
   }
   .header {
-    margin-top: -65px;
+    margin-top: -60px;
   }
   .me-icon > svg {
+    width: 40px;
+    height: 40px;
     margin-left: 20px;
+    margin-top: 10px;
   }
 
   .icon-hide-mb {
