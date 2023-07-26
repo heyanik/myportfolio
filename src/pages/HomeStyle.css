@@ -46,6 +46,31 @@
   transition: all 0.7s;
   text-decoration: #000 underline 1px;
 }
+
+.mail-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 173px;
+  height: 38px;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 400;
+  color: #252525;
+  font-size: 16px;
+  fill: #000;
+}
+.mail-div > img {
+  width: 18px;
+  height: 18px;
+}
+
+.mail-div:hover {
+  background: #facc151a;
+  transition: all 0.2s ease-out;
+}
+
 .markdown > h2 {
   font-size: 1.125rem;
   font-weight: 400;
