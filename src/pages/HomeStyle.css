@@ -56,18 +56,14 @@
   border: 1px solid #b2b2b2;
   border-radius: 5px;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   color: #252525;
   font-size: 16px;
-  fill: #000;
+  cursor: pointer;
 }
-.mail-div > img {
-  width: 18px;
-  height: 18px;
-}
-
 .mail-div:hover {
-  background: #facc151a;
+  color: #fb7185;
+  background: #fb71851a;
   transition: all 0.2s ease-out;
 }
 
