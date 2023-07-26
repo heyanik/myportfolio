@@ -65,6 +65,7 @@
   color: #fb7185;
   background: #fb71851a;
   transition: all 0.2s ease-out;
+  fill: #fb7185;
 }
 
 .markdown > h2 {
